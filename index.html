@@ -1,3 +1,23 @@
-<html>
-s
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Get In Touch </h2>
+        <form onsubmit="emailSend(); reset(); return false;">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="phone" placeholder="Name" required>
+            <input type="email" id="email" placeholder="example@gmail.com" required>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
 </html>

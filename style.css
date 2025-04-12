@@ -1,3 +1,63 @@
-* {
-    color:aqua;
+*{
+    margin: 100ps auto;
+}
+
+.container {
+    height: 400px;
+    width: 300px;
+    margin: 108px auto;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h2 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+}
+
+form {
+    margin: 41px;
+}
+
+input#name {
+    height: 24px;
+    width: 200px;
+    border-radius: 10px;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+input#phone {
+    height: 24px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input#email {
+    height: 24px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button.btn {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    border: none;
+}
+
+button.btn:hover {
+    background: transparent;
+    transition: 1s;
+    transform: scale(0.7);
+    border: rgb(255, 255, 255);
 }
